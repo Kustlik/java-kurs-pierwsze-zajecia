@@ -8,7 +8,7 @@ public class HelloWorld {
         String javaVersion = System.getProperty("java.version");
         System.out.println("Java version: " + javaVersion);
 // Sprawdzenie czy to JDK 17+
-// Something
+// Something something
         int major = Integer.parseInt(javaVersion.split("\\.")[0]);
         if (major >= 17) {
             System.out.println("OK: Używamy Java " + major + " — wszystkie funkcje dostepne");
