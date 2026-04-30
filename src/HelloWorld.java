@@ -10,7 +10,8 @@ public class HelloWorld {
 // Sprawdzenie czy to JDK 17+
         int major = Integer.parseInt(javaVersion.split("\\.")[0]);
         if (major >= 17) {
-            System.out.println("OK: Używamy Java " + major + " — wszystkie funkcje dostepne" + "funkconalnosc A");
+            System.out.println("OK: Używamy Java " + major + " — wszystkie funkcje dostepne" + "funkconalnosc A"
+                    + "New implementation B");
         } else {
             System.out.println("UWAGA: Za stara wersja Java. Wymagana: 17+");
         }
